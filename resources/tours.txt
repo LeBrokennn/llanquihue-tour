@@ -1,0 +1,5 @@
+Ruta Gastronómica Llanquihue;gastronómico;25000
+Paseo Lacustre Frutillar;lacustre;35000
+Excursión Volcán Osorno;aventura;45000
+Tour Cultural Puerto Varas;cultural;30000
+Experiencia Termas del Sur;relajación;40000
