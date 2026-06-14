@@ -25,49 +25,72 @@ LlanquihueTourApp
 │   └── tours.txt
 │
 └── README.md
-Clases del proyecto
-Tour.java
+```
 
-Clase ubicada en el paquete model.
+## Clases del proyecto
+
+### Tour.java
+
+Clase ubicada en el paquete `model`.
 
 Representa un tour turístico y contiene los siguientes atributos:
 
-nombre
-tipo
-precio
+- nombre
+- tipo
+- precio
 
-Incluye constructor, getters, setters y método toString().
+Incluye constructor, getters, setters y método `toString()`.
 
-GestorDatos.java
+### GestorDatos.java
 
-Clase ubicada en el paquete data.
+Clase ubicada en el paquete `data`.
 
-Se encarga de leer el archivo tours.txt, separar los datos con .split(";"), crear objetos de tipo Tour y almacenarlos en un ArrayList.
+Se encarga de leer el archivo `tours.txt`, separar los datos con `.split(";")`, crear objetos de tipo `Tour` y almacenarlos en un `ArrayList`.
 
-Main.java
+### Main.java
 
-Clase ubicada en el paquete ui.
+Clase ubicada en el paquete `ui`.
 
 Ejecuta el programa principal. Muestra todos los tours cargados desde el archivo y luego aplica filtros para mostrar resultados específicos.
 
-Funcionalidades
-Lectura de archivo .txt.
-Separación de datos usando .split(";").
-Creación de objetos desde datos externos.
-Almacenamiento de objetos en un ArrayList.
-Recorrido de la colección.
-Filtro por tipo de tour.
-Filtro por precio mayor a $30.000.
-Instrucciones de ejecución
-Abrir el proyecto en IntelliJ IDEA.
-Verificar que exista la carpeta resources.
-Verificar que dentro de resources esté el archivo tours.txt.
-Abrir la clase Main.java, ubicada en el paquete ui.
-Ejecutar el método main.
-Resultado esperado
+## Archivo de datos
+
+El archivo `tours.txt` se encuentra dentro de la carpeta `resources`.
+
+Cada línea tiene el siguiente formato:
+
+```text
+nombre;tipo;precio
+```
+
+Ejemplo:
+
+```text
+Ruta Gastronómica Llanquihue;gastronómico;25000
+```
+
+## Funcionalidades
+
+- Lectura de archivo `.txt`.
+- Separación de datos usando `.split(";")`.
+- Creación de objetos desde datos externos.
+- Almacenamiento de objetos en un `ArrayList`.
+- Recorrido de la colección.
+- Filtro por tipo de tour.
+- Filtro por precio mayor a $30.000.
+
+## Instrucciones de ejecución
+
+1. Abrir el proyecto en IntelliJ IDEA.
+2. Verificar que exista la carpeta `resources`.
+3. Verificar que dentro de `resources` esté el archivo `tours.txt`.
+4. Abrir la clase `Main.java`, ubicada en el paquete `ui`.
+5. Ejecutar el método `main`.
+
+## Resultado esperado
 
 Al ejecutar el programa, se mostrará en consola el listado completo de tours y luego los tours filtrados según las condiciones definidas en el código.
 
-Autor
+## Autor
 
 Javiera Saavedra
